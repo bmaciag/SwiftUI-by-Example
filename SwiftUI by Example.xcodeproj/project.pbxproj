@@ -13,6 +13,8 @@
 		437BD6DE24E5CCD600600789 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437BD6C924E5CCD500600789 /* ContentView.swift */; };
 		437BD6DF24E5CCD600600789 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 437BD6CA24E5CCD600600789 /* Assets.xcassets */; };
 		437BD6E024E5CCD600600789 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 437BD6CA24E5CCD600600789 /* Assets.xcassets */; };
+		437BD6EA24E5CD7D00600789 /* Example1-Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437BD6E924E5CD7D00600789 /* Example1-Button.swift */; };
+		437BD6EB24E5CD7D00600789 /* Example1-Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437BD6E924E5CD7D00600789 /* Example1-Button.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,7 @@
 		437BD6D724E5CCD600600789 /* SwiftUI by Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI by Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		437BD6D924E5CCD600600789 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		437BD6DA24E5CCD600600789 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		437BD6E924E5CD7D00600789 /* Example1-Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Example1-Button.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +62,7 @@
 			children = (
 				437BD6C824E5CCD500600789 /* SwiftUI_by_ExampleApp.swift */,
 				437BD6C924E5CCD500600789 /* ContentView.swift */,
+				437BD6E924E5CD7D00600789 /* Example1-Button.swift */,
 				437BD6CA24E5CCD600600789 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -188,6 +192,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				437BD6DD24E5CCD600600789 /* ContentView.swift in Sources */,
+				437BD6EA24E5CD7D00600789 /* Example1-Button.swift in Sources */,
 				437BD6DB24E5CCD600600789 /* SwiftUI_by_ExampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -197,6 +202,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				437BD6DE24E5CCD600600789 /* ContentView.swift in Sources */,
+				437BD6EB24E5CD7D00600789 /* Example1-Button.swift in Sources */,
 				437BD6DC24E5CCD600600789 /* SwiftUI_by_ExampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

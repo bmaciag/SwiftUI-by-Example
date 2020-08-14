@@ -15,7 +15,10 @@ struct ContentView: View {
                     Text("Example 1: Button")
                 }
                 NavigationLink(destination: Example2_ActionSheet()) {
-                    Text("Example 2: Action Sheet")
+                    Text("Example 2: Action Sheet (iOS only)")
+                }
+                NavigationLink(destination: Example3_Sheet()) {
+                    Text("Example 3: Sheet")
                 }
             }.navigationTitle("SwiftUI by Example")
             

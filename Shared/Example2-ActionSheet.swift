@@ -11,8 +11,9 @@ struct Example2_ActionSheet: View {
     @State private var showSheet = false
     
     var body: some View {
+        #if os(iOS)
         Button("Show Sheet", action: {
-            self.showSheet = true
+            showSheet = true
         })
         .actionSheet(isPresented: $showSheet) {
             ActionSheet(title: Text("Some Title"),
@@ -27,6 +28,9 @@ struct Example2_ActionSheet: View {
                             .cancel()
                         ])
         }
+        #else
+        Text("This only works in iOS")
+        #endif
     }
 }
 

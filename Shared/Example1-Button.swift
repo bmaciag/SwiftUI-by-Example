@@ -19,7 +19,7 @@ struct Example1_Button: View {
             Button("Button 1.2") {
                 print("Button 1.2 pressed")
             }
-            
+                        
             // More complex way where you can use also multiple elements
             Button(action: {
                 print("Button 2 pressed")
@@ -29,6 +29,13 @@ struct Example1_Button: View {
                     Image(systemName: "pencil")
                     Text("Button 2")
                 }
+            }
+            
+            // Starting with Swift 5.3 you can also use multiple traing closures
+            Button {
+                print("Button 3 pressed")
+            } label: {
+                Text("Button 3")
             }
         }
     }

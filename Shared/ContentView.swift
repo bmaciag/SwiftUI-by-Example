@@ -20,6 +20,10 @@ struct ContentView: View {
                 NavigationLink(destination: Example3_Sheet()) {
                     Text("Example 3: Sheet")
                 }
+                NavigationLink(destination: Example4_ImagePicker()) {
+                    Text("Example 4: ImagePicker")
+                }
+                
             }.navigationTitle("SwiftUI by Example")
             
         }

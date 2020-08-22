@@ -23,7 +23,12 @@ struct ContentView: View {
                 NavigationLink(destination: Example4_ImagePicker()) {
                     Text("Example 4: ImagePicker")
                 }
-                
+                NavigationLink(destination: Example5_Alert()) {
+                    Text("Example 5: Alert")
+                }
+                NavigationLink(destination: Example6_Popover()) {
+                    Text("Example 6: Popover")
+                }
             }.navigationTitle("SwiftUI by Example")
             
         }

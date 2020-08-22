@@ -7,16 +7,6 @@
 
 import SwiftUI
 
-struct Example3_Sheet_Second: View {
-    @Binding var showSheet: Bool
-    
-    var body: some View {
-        Button("Dismiss again", action: {
-            showSheet = false
-        })
-    }
-}
-
 struct Example3_Sheet: View {
     @State var showSheet = false
     
@@ -27,6 +17,16 @@ struct Example3_Sheet: View {
         .sheet(isPresented: $showSheet) {
             Example3_Sheet_Second(showSheet: $showSheet)
         }
+    }
+}
+
+struct Example3_Sheet_Second: View {
+    @Binding var showSheet: Bool
+    
+    var body: some View {
+        Button("Dismiss again", action: {
+            showSheet = false
+        })
     }
 }
 

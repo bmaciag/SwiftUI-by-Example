@@ -29,6 +29,9 @@ struct ContentView: View {
                 NavigationLink(destination: Example6_Popover()) {
                     Text("Example 6: Popover")
                 }
+                NavigationLink(destination: Example7_ColorPicker()) {
+                    Text("Example 7: Color Picker")
+                }
             }.navigationTitle("SwiftUI by Example")
             
         }

@@ -8,4 +8,5 @@ SwiftUI by Example is an Universal App for iOS and MacOS containing the followin
 - Example 4: Use UIImagePickerController (via UIViewControllerRepresentable) to select or create a photo
 - Exmaple 5: Alerts
 - Example 6: Popover
+- Exmaple 7: ColorPicker
 

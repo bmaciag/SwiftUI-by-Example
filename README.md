@@ -9,4 +9,4 @@ SwiftUI by Example is an Universal App for iOS and MacOS containing the followin
 - Exmaple 5: Alerts
 - Example 6: Popover
 - Exmaple 7: ColorPicker
-
+- Example 8: SF-Symbols

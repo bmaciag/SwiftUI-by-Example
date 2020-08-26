@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		436ABE5724F6D74000A111CC /* Example7-ColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436ABE5624F6D74000A111CC /* Example7-ColorPicker.swift */; };
 		436ABE5824F6D74000A111CC /* Example7-ColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436ABE5624F6D74000A111CC /* Example7-ColorPicker.swift */; };
+		436ABE5A24F6D8E600A111CC /* Example8-SF-Symbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436ABE5924F6D8E600A111CC /* Example8-SF-Symbols.swift */; };
+		436ABE5B24F6D8E600A111CC /* Example8-SF-Symbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436ABE5924F6D8E600A111CC /* Example8-SF-Symbols.swift */; };
 		4379406124F19C940043E359 /* Example5-Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4379406024F19C940043E359 /* Example5-Alert.swift */; };
 		4379406224F19C940043E359 /* Example5-Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4379406024F19C940043E359 /* Example5-Alert.swift */; };
 		437BD6DB24E5CCD600600789 /* SwiftUI_by_ExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437BD6C824E5CCD500600789 /* SwiftUI_by_ExampleApp.swift */; };
@@ -31,6 +33,7 @@
 
 /* Begin PBXFileReference section */
 		436ABE5624F6D74000A111CC /* Example7-ColorPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Example7-ColorPicker.swift"; sourceTree = "<group>"; };
+		436ABE5924F6D8E600A111CC /* Example8-SF-Symbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Example8-SF-Symbols.swift"; sourceTree = "<group>"; };
 		4379406024F19C940043E359 /* Example5-Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Example5-Alert.swift"; sourceTree = "<group>"; };
 		437BD6C824E5CCD500600789 /* SwiftUI_by_ExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_by_ExampleApp.swift; sourceTree = "<group>"; };
 		437BD6C924E5CCD500600789 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -122,6 +125,7 @@
 				4379406024F19C940043E359 /* Example5-Alert.swift */,
 				43D4630624F1A0BD009BE962 /* Example6-Popover.swift */,
 				436ABE5624F6D74000A111CC /* Example7-ColorPicker.swift */,
+				436ABE5924F6D8E600A111CC /* Example8-SF-Symbols.swift */,
 			);
 			name = Examples;
 			sourceTree = "<group>";
@@ -229,6 +233,7 @@
 				43C56B5D24E662160042F698 /* Example3-Sheet.swift in Sources */,
 				43D4630724F1A0BE009BE962 /* Example6-Popover.swift in Sources */,
 				437BD6EA24E5CD7D00600789 /* Example1-Button.swift in Sources */,
+				436ABE5A24F6D8E600A111CC /* Example8-SF-Symbols.swift in Sources */,
 				43BC487924EFB77E00BA2696 /* Example4-ImagePicker.swift in Sources */,
 				437BD6DB24E5CCD600600789 /* SwiftUI_by_ExampleApp.swift in Sources */,
 				43C56B5A24E650510042F698 /* Example2-ActionSheet.swift in Sources */,
@@ -245,6 +250,7 @@
 				43C56B5E24E662160042F698 /* Example3-Sheet.swift in Sources */,
 				43D4630824F1A0BE009BE962 /* Example6-Popover.swift in Sources */,
 				437BD6EB24E5CD7D00600789 /* Example1-Button.swift in Sources */,
+				436ABE5B24F6D8E600A111CC /* Example8-SF-Symbols.swift in Sources */,
 				43BC487A24EFB77E00BA2696 /* Example4-ImagePicker.swift in Sources */,
 				437BD6DC24E5CCD600600789 /* SwiftUI_by_ExampleApp.swift in Sources */,
 				43C56B5B24E650510042F698 /* Example2-ActionSheet.swift in Sources */,
